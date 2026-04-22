@@ -2750,3 +2750,32 @@ section {
 }
 
 
+.portfolio-details-slider img {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: contain;
+}
+
+/* ===== PROJECT CARD IMAGE CONSISTENCY ===== */
+.projects .card-img-top {
+  width: 100%;
+  aspect-ratio: 16 / 9;   /* forces landscape format */
+  object-fit: cover;      /* crops instead of stretching */
+  object-position: center;
+  display: block;
+}
+
+/* Optional: smooth visual polish */
+.projects .card {
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.projects .card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.projects .card:hover .card-img-top {
+  transform: scale(1.03);
+}

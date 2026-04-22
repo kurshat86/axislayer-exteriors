@@ -7,7 +7,43 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+  <!-- Project Pages -->
+  <url>
+    <loc>https://axislayer.ca/projects/custom-eifs-stone-wood-home-edmonton/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
+  <url>
+    <loc>https://axislayer.ca/projects/custom-home-eifs-stone-cladding-edmonton/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://axislayer.ca/projects/detached-garage-eifs-edmonton/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://axislayer.ca/projects/modern-eifs-duplex-edmonton/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://axislayer.ca/projects/modern-infill-eifs-stucco-edmonton/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://axislayer.ca/projects/stucco-culture-stone-triplex-edmonton/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
   <!-- Main Pages -->
   <url>
     <loc>https://axislayer.ca/services/</loc>
