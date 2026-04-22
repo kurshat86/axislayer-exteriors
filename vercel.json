@@ -1,0 +1,19 @@
+{
+  "redirects": [
+    {
+      "source": "http://axislayer.ca/:path*",
+      "destination": "https://axislayer.ca/:path*",
+      "permanent": true
+    },
+    {
+      "source": "http://www.axislayer.ca/:path*",
+      "destination": "https://axislayer.ca/:path*",
+      "permanent": true
+    },
+    {
+      "source": "https://www.axislayer.ca/:path*",
+      "destination": "https://axislayer.ca/:path*",
+      "permanent": true
+    }
+  ]
+}
