@@ -2001,7 +2001,6 @@ section {
     padding-right: 15px;
   }
 }
-
 .hero .carousel-control-next-icon,
 .hero .carousel-control-prev-icon {
   background: none;
@@ -2022,7 +2021,6 @@ section {
   z-index: 3;
   transition: 0.3s;
 }
-
 .hero .carousel-control-prev:focus,
 .hero .carousel-control-next:focus {
   opacity: 0.5;
