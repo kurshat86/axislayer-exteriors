@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <!-- ============================================================
+       TEMPLATE FIELDS — update every line marked [TEMPLATE]
+       before publishing. Leave everything else untouched.
+  ============================================================ -->
+
+  <!-- [TEMPLATE] Page title: "Primary Keyword | AxisLayer Blog" -->
+  <title>BLOG POST TITLE | AxisLayer Blog</title>
+
+  <!-- [TEMPLATE] 150-160 character meta description -->
+  <meta name="description" content="META DESCRIPTION — 150 to 160 characters, includes primary keyword, written for humans not bots.">
+
+  <!-- [TEMPLATE] Canonical URL — must match the folder slug exactly -->
+  <link rel="canonical" href="https://axislayer.ca/blog/POST-SLUG/">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph — [TEMPLATE] update title, description, URL, and image -->
+  <meta property="og:title" content="OG TITLE — can be slightly different from page title, max 60 chars">
+  <meta property="og:description" content="OG DESCRIPTION — 1-2 sentences, compelling, includes keyword">
+  <meta property="og:url" content="https://axislayer.ca/blog/POST-SLUG/">
+  <meta property="og:type" content="article">
+  <!-- [TEMPLATE] Image: 1200x630px webp in /assets/img/blog/ -->
+  <meta property="og:image" content="https://axislayer.ca/assets/img/blog/IMAGE-FILENAME.webp">
+  <meta property="og:site_name" content="AxisLayer Exteriors">
+
+  <!-- Favicons — DO NOT CHANGE -->
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Fonts & CSS — DO NOT CHANGE -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;600;700&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="/assets/css/main.css" rel="stylesheet">
+
+  <!-- ============================================================
+       SCHEMA: BlogPosting
+       [TEMPLATE] Update headline, description, url, datePublished,
+       dateModified, and image.
+  ============================================================ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "FULL H1 TITLE OF THE BLOG POST",
+    "description": "Same as meta description above.",
+    "url": "https://axislayer.ca/blog/POST-SLUG/",
+    "datePublished": "YYYY-MM-DD",
+    "dateModified": "YYYY-MM-DD",
+    "image": "https://axislayer.ca/assets/img/blog/IMAGE-FILENAME.webp",
+    "author": {
+      "@type": "Organization",
+      "name": "AxisLayer Exteriors"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "AxisLayer Exteriors",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://axislayer.ca/assets/img/logo.png"
+      }
+    }
+  }
+  </script>
+
+  <!-- ============================================================
+       SCHEMA: FAQPage
+       [TEMPLATE] Replace questions and answers with ones from
+       this post. Minimum 3, maximum 6. These feed Google's
+       FAQ rich results — make them genuinely useful.
+  ============================================================ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "QUESTION ONE?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Answer to question one. Write a complete sentence or two."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "QUESTION TWO?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Answer to question two."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "QUESTION THREE?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Answer to question three."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- SCHEMA: LocalBusiness — DO NOT CHANGE, same across all posts -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
+    "name": "AxisLayer Exteriors",
+    "url": "https://axislayer.ca",
+    "telephone": "+18257857675",
+    "email": "info@axislayer.ca",
+    "image": "https://axislayer.ca/assets/img/logo.png",
+    "logo": "https://axislayer.ca/assets/img/logo.png",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Edmonton",
+      "addressRegion": "AB",
+      "postalCode": "T5X 0L8",
+      "addressCountry": "CA"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 53.5461,
+      "longitude": -113.4938
+    },
+    "areaServed": [
+      { "@type": "City", "name": "Edmonton" },
+      { "@type": "City", "name": "St. Albert" },
+      { "@type": "City", "name": "Sherwood Park" },
+      { "@type": "City", "name": "Spruce Grove" },
+      { "@type": "City", "name": "Leduc" }
+    ],
+    "makesOffer": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Stucco Installation" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "EIFS Installation" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Foundation Parging" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Culture Stone Installation" } }
+    ],
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "08:00",
+        "closes": "18:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/axislayer",
+      "https://www.instagram.com/axislayer"
+    ]
+  }
+  </script>
+
+  <!-- ============================================================
+       SCHEMA: BreadcrumbList
+       [TEMPLATE] Update position 3 name and item URL only.
+       Positions 1 and 2 never change.
+  ============================================================ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://axislayer.ca/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://axislayer.ca/blog/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "BREADCRUMB LABEL FOR THIS POST",
+        "item": "https://axislayer.ca/blog/POST-SLUG/"
+      }
+    ]
+  }
+  </script>
+
+</head>
+<body>
+
+  <!-- ======= Header — DO NOT CHANGE ======= -->
+  <header id="header" class="header d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="/" class="logo d-flex align-items-center">
+        <h1>AxisLayer Exteriors<span>.</span></h1>
+      </a>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li class="dropdown">
+            <a href="/services/"><span>Exterior Services</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="/services/stucco-edmonton/">Stucco Edmonton</a></li>
+              <li><a href="/services/eifs-edmonton/">EIFS Edmonton</a></li>
+              <li><a href="/services/culture-stone-edmonton/">Culture Stone Edmonton</a></li>
+              <li><a href="/services/parging-edmonton/">Parging Edmonton</a></li>
+            </ul>
+          </li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/blog/" class="active">Blog</a></li>
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <main id="main">
+
+    <!-- Breadcrumbs — [TEMPLATE] update the last <li> label only -->
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('/assets/img/breadcrumb-bg-axislayer.webp');">
+      <div class="container position-relative d-flex flex-column align-items-center">
+        <h2 style="color:white;">Blog</h2>
+        <ol>
+          <li><a href="/" title="Back to AxisLayer Home">Home</a></li>
+          <li><a href="/blog/" title="Back to AxisLayer Blog">Blog</a></li>
+          <li>BREADCRUMB LABEL FOR THIS POST</li>
+        </ol>
+      </div>
+    </div>
+
+    <section id="blog" class="blog">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-10 offset-lg-1">
+            <article class="blog-details">
+
+              <!-- [TEMPLATE] H1 — your primary keyword phrase, written naturally -->
+              <h1 class="title">FULL H1 TITLE OF THE BLOG POST</h1>
+
+              <!-- Meta — [TEMPLATE] update date only (format: Month DD, YYYY) -->
+              <div class="meta-top">
+                <ul class="d-flex list-unstyled">
+                  <li class="me-4 text-muted"><i class="bi bi-person"></i> AxisLayer Exteriors</li>
+                  <li class="text-muted"><i class="bi bi-clock"></i> MONTH DD, YYYY</li>
+                </ul>
+              </div>
+
+              <div class="content">
+
+                <!-- ============================================================
+                     [TEMPLATE] Hero image
+                     - Filename: descriptive-kebab-case.webp
+                     - Dimensions: 1200x630px
+                     - Alt text: describe what's literally in the photo,
+                       include location (Edmonton) and service name naturally
+                ============================================================ -->
+                <img
+                  src="/assets/img/blog/IMAGE-FILENAME.webp"
+                  alt="ALT TEXT — describe the photo literally, include Edmonton and relevant service name"
+                  class="img-fluid mb-4 rounded shadow-sm"
+                  loading="lazy"
+                  width="1200"
+                  height="630">
+
+                <!-- ============================================================
+                     CONTENT AREA
+                     
+                     INTERNAL LINK TARGETS (use these throughout the post):
+                     • /services/stucco-edmonton/      → "stucco installation" or "stucco services"
+                     • /services/eifs-edmonton/        → "EIFS systems" or "EIFS installation"
+                     • /services/parging-edmonton/     → "parging" or "foundation parging"
+                     • /services/culture-stone-edmonton/ → "culture stone" or "stone veneer"
+                     • /contact/                       → "free quote", "contact us", "get started"
+                     • /blog/                          → cross-link to related posts by slug
+
+                     EXTERNAL AUTHORITY LINK TARGETS (open in new tab, rel="noopener"):
+                     • City of Edmonton permits:
+                       https://www.edmonton.ca/programs_services/permits_licences/residential-exterior-renovations
+                       → use when: mentioning permits, exterior renovations, or city regulations
+                     
+                     • National Research Council Canada (NRC):
+                       https://nrc.canada.ca/en/research-development/research-collaboration/programs/high-performance-buildings-research-program
+                       → use when: discussing R-values, energy efficiency, building envelope, EIFS thermal performance
+                     
+                     • EIFS Council of Canada:
+                       https://eifscouncil.org/
+                       → use when: discussing EIFS standards, drainage planes, moisture management
+
+                     NOTE: The three sources above are the core defaults, but other credible
+                     external sources can and should be used when they are a better fit for
+                     the post topic. Good candidates include:
+                       - Alberta Building Code / Safety Codes Council (safety or code topics)
+                       - Natural Resources Canada / Canada.ca (energy efficiency programs)
+                       - Environment and Climate Change Canada (weather, climate data)
+                       - University of Alberta or NorQuest research (local academic sources)
+                       - Insurance Bureau of Canada (hail, weather damage topics)
+                       - Manufacturer technical documentation (e.g. Parex, Dryvit, Sto)
+                     The standard is: government (.gc.ca, .ca, .gov), academic (.edu, .ca
+                     universities), or recognized industry bodies — not blogs or forums.
+
+                     LINKING RULES:
+                     • 2-4 internal links per post minimum
+                     • 1-2 external authority links per post (don't force them all in)
+                     • Internal links: no target="_blank", use descriptive title="" attribute
+                     • External links: always target="_blank" rel="noopener" with title=""
+                     • Never link the same destination twice in the same paragraph
+                     • Anchor text must be descriptive — never "click here"
+                ============================================================ -->
+
+                <!-- INTRO — 2 short paragraphs, introduce the topic and why it matters
+                     in Edmonton. First paragraph should include 1 internal link naturally. -->
+                <p>
+                  INTRO PARAGRAPH ONE — Set up the problem or question this post answers.
+                  Link to the most relevant service page here, e.g.:
+                  <a href="/services/stucco-edmonton/" title="Professional Stucco Installation in Edmonton">stucco installation</a> or
+                  <a href="/services/eifs-edmonton/" title="EIFS Exterior Systems in Edmonton">EIFS systems</a>.
+                </p>
+
+                <p>INTRO PARAGRAPH TWO — Brief overview of what the reader will learn.</p>
+
+                <hr>
+
+                <!-- ============================================================
+                     MAIN BODY SECTIONS
+                     Use H2 for main sections, H3 for subsections.
+                     Aim for 5-8 H2 sections total.
+                     Each section: 2-4 paragraphs or a short list.
+                     Total word count target: 800-1,400 words.
+                ============================================================ -->
+
+                <h2>SECTION HEADING ONE</h2>
+                <p>Body paragraph. Include a natural internal link if the topic connects to a service page.</p>
+                <p>Second paragraph.</p>
+
+                <h2>SECTION HEADING TWO</h2>
+                <p>
+                  Body paragraph. If this section covers energy efficiency, building standards,
+                  or thermal performance, this is where the NRC external link fits naturally:
+                  "...in line with the
+                  <a href="https://nrc.canada.ca/en/research-development/research-collaboration/programs/high-performance-buildings-research-program"
+                     target="_blank" rel="noopener"
+                     title="National Research Council Canada - High Performance Buildings Program">National Research Council Canada's high-performance building standards</a>."
+                </p>
+
+                <h2>SECTION HEADING THREE</h2>
+                <p>
+                  Body paragraph. If this section covers EIFS moisture management or drainage,
+                  this is where the EIFS Council of Canada link fits:
+                  "...following
+                  <a href="https://eifscouncil.org/"
+                     target="_blank" rel="noopener"
+                     title="EIFS Council of Canada — national standards for moisture management">EIFS Council of Canada</a>
+                  standards for moisture control and drainage."
+                </p>
+
+                <!-- [OPTIONAL] Comparison table — use when post compares two systems/options -->
+                <!--
+                <div class="table-responsive">
+                  <table class="table comparison-table">
+                    <thead>
+                      <tr>
+                        <th>Feature</th>
+                        <th>OPTION A</th>
+                        <th>OPTION B</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Feature label</td>
+                        <td>Option A value</td>
+                        <td>Option B value</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                -->
+
+                <h2>SECTION HEADING FOUR — Cost / What to Expect</h2>
+                <p>Pricing context or process overview. Always end with a link to /contact/.</p>
+                <ul>
+                  <li><strong>Cost item or process step one:</strong> Detail.</li>
+                  <li><strong>Cost item or process step two:</strong> Detail.</li>
+                </ul>
+
+                <!-- ============================================================
+                     CTA HIGHLIGHT BOX — always include, always links to /contact/
+                     [TEMPLATE] Update headline and bullet points for this post's topic
+                ============================================================ -->
+                <div class="cta-highlight">
+                  <h3>CTA HEADLINE — e.g. "Ready to Fix Your Exterior?"</h3>
+                  <p>One or two sentences reinforcing the main takeaway and directing them to act.</p>
+                  <ul>
+                    <li>Relevant trust signal or selling point</li>
+                    <li>Relevant trust signal or selling point</li>
+                    <li>Relevant trust signal or selling point</li>
+                  </ul>
+                  <!-- [TEMPLATE] If this post involves permits, include the City of Edmonton link here -->
+                  <p>
+                    Before starting exterior work, check the
+                    <a href="https://www.edmonton.ca/programs_services/permits_licences/residential-exterior-renovations"
+                       target="_blank" rel="noopener"
+                       title="City of Edmonton Residential Exterior Renovation Permit Information">City of Edmonton Residential Exterior Renovation</a>
+                    permit requirements.
+                    <!-- REMOVE the paragraph above if permits are not relevant to this post -->
+                  </p>
+                  <a href="/contact/" class="btn btn-warning btn-lg mt-3" title="Get a Free Exterior Quote from AxisLayer Exteriors">
+                    Get Your Free Quote from AxisLayer →
+                  </a>
+                </div>
+
+                <!-- ============================================================
+                     FAQ SECTION
+                     [TEMPLATE] 3-5 questions. Must match the FAQPage schema above.
+                     Each answer should be 1-3 sentences. Include internal links
+                     in answers where they fit naturally.
+                ============================================================ -->
+                <h2>Frequently Asked Questions</h2>
+
+                <p><strong>QUESTION ONE?</strong><br>
+                Answer to question one. Link to a relevant service page if appropriate,
+                e.g. <a href="/services/stucco-edmonton/" title="Stucco Services Edmonton">stucco installation</a>.</p>
+
+                <p><strong>QUESTION TWO?</strong><br>
+                Answer to question two.</p>
+
+                <p><strong>QUESTION THREE?</strong><br>
+                Answer to question three.</p>
+
+                <!-- ============================================================
+                     CLOSING SECTION — always the last section before CTA button
+                ============================================================ -->
+                <h2>Ready to Get Started?</h2>
+                <p>
+                  CLOSING PARAGRAPH — 1-2 sentences wrapping up the post and reinforcing
+                  AxisLayer as the right choice for Edmonton homeowners.
+                </p>
+                <p>
+                  AxisLayer Exteriors installs
+                  <a href="/services/stucco-edmonton/" title="Edmonton Stucco Services">stucco</a>,
+                  <a href="/services/eifs-edmonton/" title="Edmonton EIFS Systems">EIFS</a>, and
+                  <a href="/services/parging-edmonton/" title="Foundation Parging Edmonton">parging</a>
+                  across Edmonton and surrounding areas — built for Alberta conditions.
+                </p>
+                <a href="/contact/" class="btn btn-primary btn-lg" title="Get a Free Exterior Quote from AxisLayer">
+                  Get a free exterior quote today →
+                </a>
+
+              </div><!-- end .content -->
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======= Footer — DO NOT CHANGE ======= -->
+  <footer id="footer" class="footer">
+    <div class="footer-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>AxisLayer Exteriors</h3>
+              <p>
+                Edmonton, Alberta, Canada<br><br>
+                <strong>Phone:</strong> +1 825 785 7675<br>
+                <strong>Email:</strong> info@axislayer.ca<br>
+              </p>
+              <div class="mt-3">
+                <a href="https://wa.me/18257857675" class="btn btn-success">Message Us on WhatsApp</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="/services/stucco-edmonton/">Stucco Installation</a></li>
+              <li><a href="/services/eifs-edmonton/">EIFS Systems</a></li>
+              <li><a href="/services/culture-stone-edmonton/">Culture Stone</a></li>
+              <li><a href="/services/parging-edmonton/">Foundation Parging</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/contact/">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Service Area</h4>
+            <p>Serving Edmonton and surrounding areas including Sherwood Park, St. Albert, and nearby communities.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-legal text-center">
+      <div class="container">
+        <div class="copyright">
+          &copy; 2026 <strong>AxisLayer Exteriors</strong>. All Rights Reserved
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+  <div id="preloader"></div>
+
+  <!-- Scripts — DO NOT CHANGE -->
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/js/main.js"></script>
+
+</body>
+</html>
