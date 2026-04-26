@@ -35,7 +35,8 @@
 
     <link rel="preload" as="image" href="/assets/img/hero-carousel/custom-residential-stucco-exterior-finish-spruce-grove-axislayer.webp">
 
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"></noscript>
 
     <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -114,8 +115,8 @@
           <div class="logo-text" style="font-size:1.5rem; font-weight:700; line-height:1;">AxisLayer Exteriors<span>.</span></div>
         </a>
         <!-- Mobile toggle -->
-        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list" aria-label="Open navigation menu"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x" aria-label="Close navigation menu"></i>
         <nav id="navbar" class="navbar">
           <ul>
             <li><a href="/" class="active">Home</a></li>
@@ -169,11 +170,11 @@
         <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/eifs-stucco-system-installation-sherwood-park-axislayer.webp)"></div>
         <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/modern-exterior-stucco-and-parging-st-albert-axislayer.webp)"></div>
         <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/premium-residential-stucco-installation-leduc-axislayer.webp)"></div>
-        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-label="Previous Slide" aria-hidden="true"></span>
+        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev" aria-label="Previous slide">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
         </a>
-        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon bi bi-chevron-right" aria-label="Previous Slide" aria-hidden="true"></span>
+        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next" aria-label="Next slide">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
         </a>
       </div>
     </section>
@@ -476,7 +477,7 @@
       </div>
     </footer>
     <!-- End Footer -->
-    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Scroll to top"><i class="bi bi-arrow-up-short"></i></a>
     <div id="preloader"></div>
     <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
     <script src="/assets/vendor/aos/aos.js" defer></script>
