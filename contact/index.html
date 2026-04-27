@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact AxisLayer Exteriors | Edmonton Stucco & EIFS Quotes</title>
     <meta name="description" content="Contact AxisLayer Exteriors for stucco, EIFS, and parging services in Edmonton. Get fast, no-obligation quotes for residential and commercial exterior work across Alberta.">
-    <meta name="keywords" content="contact stucco contractor Edmonton, EIFS quote Edmonton, parging contractor Edmonton, exterior contractor Alberta, AxisLayer Exteriors contact">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://axislayer.ca/contact/">
     <!-- Open Graph -->
@@ -14,15 +13,14 @@
     <meta property="og:url" content="https://axislayer.ca/contact/">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://axislayer.ca/assets/img/contact.webp">
-    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-<!-- Favicons — DO NOT CHANGE -->
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="manifest" href="/site.webmanifest">
+    <!-- Favicons — DO NOT CHANGE -->
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,106 +34,352 @@
     <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="/assets/css/main.css" rel="stylesheet">
-    <!-- Main CSS -->
+
+    <style>
+      /* ── Contact page enhancements ── */
+
+      .contact-section {
+        padding: 70px 0 80px;
+      }
+
+      /* LEFT COLUMN — trust builder */
+      .contact-info-col .col-heading {
+        font-size: clamp(1.5rem, 2.5vw, 2rem);
+        font-weight: 700;
+        color: #1a1a2e;
+        line-height: 1.25;
+        margin-bottom: 12px;
+      }
+      .contact-info-col .col-subhead {
+        color: #555;
+        font-size: 0.97rem;
+        line-height: 1.65;
+        margin-bottom: 32px;
+      }
+
+      /* Process steps */
+      .process-steps {
+        margin-bottom: 36px;
+      }
+      .process-steps h5 {
+        font-size: 0.78rem;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        font-weight: 700;
+        color: var(--color-primary, #e84545);
+        margin-bottom: 20px;
+      }
+      .process-step {
+        display: flex;
+        gap: 16px;
+        margin-bottom: 20px;
+        align-items: flex-start;
+      }
+      .process-step .step-num {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background: var(--color-primary, #e84545);
+        color: #fff;
+        font-size: 0.85rem;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        margin-top: 2px;
+      }
+      .process-step .step-text strong {
+        display: block;
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: #1a1a2e;
+        margin-bottom: 3px;
+      }
+      .process-step .step-text span {
+        font-size: 0.88rem;
+        color: #666;
+        line-height: 1.5;
+      }
+
+      /* Trust badges */
+      .trust-badges {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 32px;
+      }
+      .trust-badge {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        background: #f4f6f8;
+        border: 1px solid #e2e6ea;
+        border-radius: 4px;
+        padding: 8px 14px;
+        font-size: 0.82rem;
+        font-weight: 600;
+        color: #333;
+      }
+      .trust-badge i {
+        color: #4caf50;
+        font-size: 0.95rem;
+      }
+
+      /* Direct contact */
+      .direct-contact {
+        border-top: 1px solid #eee;
+        padding-top: 24px;
+      }
+      .direct-contact h6 {
+        font-size: 0.78rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-weight: 700;
+        color: #888;
+        margin-bottom: 14px;
+      }
+      .contact-link-row {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 12px;
+        font-size: 0.95rem;
+        color: #333;
+        text-decoration: none;
+      }
+      .contact-link-row i {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background: #f0f4f8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        color: var(--color-primary, #e84545);
+        flex-shrink: 0;
+      }
+      .contact-link-row strong {
+        display: block;
+        font-size: 0.78rem;
+        font-weight: 600;
+        color: #888;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        margin-bottom: 1px;
+      }
+      a.contact-link-row { text-decoration: none; }
+      a.contact-link-row:hover { color: var(--color-primary, #e84545); }
+
+      .whatsapp-link-row {
+        margin-top: 16px;
+      }
+      .btn-whatsapp {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: #25d366;
+        color: #fff;
+        font-weight: 600;
+        font-size: 0.92rem;
+        padding: 10px 22px;
+        border-radius: 4px;
+        text-decoration: none;
+        transition: background 0.2s;
+      }
+      .btn-whatsapp:hover { background: #1da551; color: #fff; }
+
+      /* RIGHT COLUMN — form */
+      .quote-form-wrap {
+        background: #fff;
+        border: 1px solid #e2e6ea;
+        border-radius: 8px;
+        padding: 36px 32px;
+        box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+      }
+      .quote-form-wrap .form-heading {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #1a1a2e;
+        margin-bottom: 4px;
+      }
+      .quote-form-wrap .form-subhead {
+        font-size: 0.88rem;
+        color: #777;
+        margin-bottom: 24px;
+      }
+
+      /* Service selector chips */
+      .service-selector {
+        margin-bottom: 20px;
+      }
+      .service-selector label {
+        display: block;
+        font-size: 0.82rem;
+        font-weight: 600;
+        color: #555;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+      }
+      .service-chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .service-chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 7px 14px;
+        border: 2px solid #dde1e7;
+        border-radius: 4px;
+        font-size: 0.85rem;
+        font-weight: 500;
+        color: #444;
+        cursor: pointer;
+        transition: all 0.18s;
+        background: #fff;
+        user-select: none;
+      }
+      .service-chip input[type="checkbox"] {
+        display: none;
+      }
+      .service-chip:hover {
+        border-color: var(--color-primary, #e84545);
+        color: var(--color-primary, #e84545);
+      }
+      .service-chip.selected {
+        border-color: var(--color-primary, #e84545);
+        background: var(--color-primary, #e84545);
+        color: #fff;
+      }
+
+      /* Form controls */
+      .quote-form-wrap .form-control {
+        border: 1.5px solid #dde1e7;
+        border-radius: 4px;
+        padding: 11px 14px;
+        font-size: 0.92rem;
+        color: #333;
+        transition: border-color 0.18s, box-shadow 0.18s;
+      }
+      .quote-form-wrap .form-control:focus {
+        border-color: var(--color-primary, #e84545);
+        box-shadow: 0 0 0 3px rgba(232,69,69,0.12);
+        outline: none;
+      }
+      .quote-form-wrap textarea.form-control { resize: vertical; min-height: 110px; }
+
+      /* Submit button */
+      .btn-submit-quote {
+        width: 100%;
+        padding: 14px;
+        background: var(--color-primary, #e84545);
+        color: #fff;
+        font-weight: 700;
+        font-size: 1rem;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background 0.2s, transform 0.15s;
+        letter-spacing: 0.02em;
+      }
+      .btn-submit-quote:hover {
+        background: #c73535;
+        transform: translateY(-1px);
+      }
+      .form-reassurance {
+        text-align: center;
+        font-size: 0.8rem;
+        color: #999;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+      }
+      .form-reassurance i { color: #4caf50; }
+
+      /* Service area strip */
+      .service-area-strip {
+        background: #f4f7f9;
+        border-top: 1px solid #e2e6ea;
+        padding: 28px 0;
+        text-align: center;
+      }
+      .service-area-strip p {
+        margin: 0;
+        font-size: 0.9rem;
+        color: #555;
+      }
+      .service-area-strip strong { color: #1a1a2e; }
+      .area-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: center;
+        margin-top: 14px;
+      }
+      .area-tag {
+        background: #fff;
+        border: 1px solid #dde1e7;
+        border-radius: 20px;
+        padding: 5px 14px;
+        font-size: 0.82rem;
+        font-weight: 500;
+        color: #444;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+      .area-tag i { font-size: 0.75rem; color: var(--color-primary, #e84545); }
+    </style>
+
     <!-- LocalBusiness Schema -->
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "GeneralContractor",
-        "name": "AxisLayer Exteriors",
-        "url": "https://axislayer.ca",
-        "telephone": "+1 825 785 7675",
-        "email": "info@axislayer.ca",
-      
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Edmonton",
-          "addressRegion": "AB",
-          "addressCountry": "CA"
-        },
-      
-        "areaServed": [
-          "Edmonton",
-          "Sherwood Park",
-          "St. Albert"
-        ],
-      
-        "serviceType": [
-          "Stucco Installation",
-          "EIFS Exterior Insulation Systems",
-          "Foundation Parging"
-        ],
-      
-        "description": "AxisLayer Exteriors provides stucco, EIFS, and parging services in Edmonton for residential and commercial exterior systems built for Alberta climate conditions."
-      }
-    </script>
-      <!-- SCHEMA: LocalBusiness -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
-    "name": "AxisLayer Exteriors",
-    "url": "https://axislayer.ca",
-    "telephone": "+18257857675",
-    "email": "info@axislayer.ca",
-    "image": "https://axislayer.ca/assets/img/logo.png",
-    "logo": "https://axislayer.ca/assets/img/logo.png",
-    "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Edmonton",
-      "addressRegion": "AB",
-      "postalCode": "T5X 0L8",
-      "addressCountry": "CA"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 53.5461,
-      "longitude": -113.4938
-    },
-    "areaServed": [
-      { "@type": "City", "name": "Edmonton" },
-      { "@type": "City", "name": "St. Albert" },
-      { "@type": "City", "name": "Sherwood Park" },
-      { "@type": "City", "name": "Spruce Grove" },
-      { "@type": "City", "name": "Leduc" }
-    ],
-    "makesOffer": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Stucco Installation" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "EIFS Installation" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Foundation Parging" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Culture Stone Installation" } }
-    ],
-    "openingHoursSpecification": [
-      {
+    {
+      "@context": "https://schema.org",
+      "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
+      "name": "AxisLayer Exteriors",
+      "url": "https://axislayer.ca",
+      "telephone": "+18257857675",
+      "email": "info@axislayer.ca",
+      "image": "https://axislayer.ca/assets/img/logo.png",
+      "logo": "https://axislayer.ca/assets/img/logo.png",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Edmonton",
+        "addressRegion": "AB",
+        "postalCode": "T5X 0L8",
+        "addressCountry": "CA"
+      },
+      "geo": { "@type": "GeoCoordinates", "latitude": 53.5461, "longitude": -113.4938 },
+      "areaServed": [
+        { "@type": "City", "name": "Edmonton" },
+        { "@type": "City", "name": "St. Albert" },
+        { "@type": "City", "name": "Sherwood Park" },
+        { "@type": "City", "name": "Spruce Grove" },
+        { "@type": "City", "name": "Leduc" }
+      ],
+      "openingHoursSpecification": [{
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-        "opens": "08:00",
-        "closes": "18:00"
-      }
-    ],
-    "sameAs": []
-  }
-  </script>
+        "opens": "08:00", "closes": "18:00"
+      }]
+    }
+    </script>
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://axislayer.ca/"
-          }
-          ,{
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Contact",
-            "item": "https://axislayer.ca/contact/"
-          }
-        ]
-      }
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://axislayer.ca/" },
+        { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://axislayer.ca/contact/" }
+      ]
+    }
     </script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z2J54D80YS"></script>
@@ -143,25 +387,22 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      
       gtag('config', 'G-Z2J54D80YS');
     </script>
   </head>
   <body>
+
     <!-- ======= Header ======= -->
     <header id="header" class="header d-flex align-items-center">
       <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-        <!-- Logo -->
         <a href="/" class="logo d-flex align-items-center">
           <div class="logo-text" style="font-size:1.5rem; font-weight:700; line-height:1;">AxisLayer Exteriors<span>.</span></div>
         </a>
-        <!-- Mobile toggle -->
         <i class="mobile-nav-toggle mobile-nav-show bi bi-list" aria-label="Open navigation menu"></i>
         <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x" aria-label="Close navigation menu"></i>
         <nav id="navbar" class="navbar">
           <ul>
             <li><a href="/">Home</a></li>
-            <!-- Service silo (important for SEO) -->
             <li class="dropdown">
               <a href="/services/"><span>Exterior Services</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
               <ul>
@@ -180,82 +421,187 @@
       </div>
     </header>
     <!-- End Header -->
+
     <main id="main">
+
       <!-- ======= Breadcrumbs ======= -->
-      <div class="breadcrumbs d-flex align-items-center"
-        style="background-image: url('/assets/img/breadcrumb-bg-axislayer.webp');">
+      <div class="breadcrumbs d-flex align-items-center" style="background-image: url('/assets/img/breadcrumb-bg-axislayer.webp');">
         <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
-          <h1>Contact AxisLayer Exteriors</h1>
+          <h1>Get a Free Quote</h1>
           <ol>
             <li><a href="/">Home</a></li>
             <li>Contact</li>
           </ol>
         </div>
       </div>
-      <!-- ======= CONTACT INTRO + FORM ======= -->
-      <section id="contact" class="contact">
-        <div class="container" data-aos="fade-up">
-          <div class="row gy-4">
-            <!-- LEFT: SEO + TRUST INFO -->
-            <div class="col-lg-6">
-              <h2>Get a Free Stucco, EIFS or Parging Quote in Edmonton</h2>
-              <p>
-                AxisLayer Exteriors provides exterior wall systems across Edmonton and surrounding areas.
-                We specialize in stucco installation, EIFS insulation systems, and foundation parging for residential and commercial buildings.
+      <!-- End Breadcrumbs -->
+
+      <!-- ======= Contact Section ======= -->
+      <section class="contact-section">
+        <div class="container">
+          <div class="row gy-5">
+
+            <!-- LEFT: Trust builder -->
+            <div class="col-lg-5 contact-info-col" data-aos="fade-right">
+
+              <h2 class="col-heading">We'll Get Back to You Within 24 Hours</h2>
+              <p class="col-subhead">
+                Fill in the form and we'll respond with a clear quote, honest timeline, and answers to any questions — no pressure, no obligation.
               </p>
-              <p>
-                Send your project details and we’ll respond with pricing, timeline, and next steps.
-                Fast response times for Edmonton homeowners, builders, and property managers.
-              </p>
-              <div class="mt-4">
-                <p><strong>Service Area:</strong> Edmonton, Sherwood Park, St. Albert</p>
-                <p><strong>Phone:</strong> +1 825 785 7675</p>
-                <p><strong>Email:</strong> info@axislayer.ca</p>
-              </div>
-              <div class="mt-3">
-                <a href="https://wa.me/18257857675" class="btn btn-success">
-                Message on WhatsApp
-                </a>
-              </div>
-            </div>
-            <!-- RIGHT: FORM -->
-            <div class="col-lg-6">
-              <form action="https://formspree.io/f/mvzdbqvo" method="POST">
-                <h3>Request a Quote</h3>
-                <p>We typically respond within 24 hours.</p>
-                <div class="row gy-3">
-                  <div class="col-12">
-                    <input type="text" name="name" class="form-control" placeholder="Full Name" required>
-                  </div>
-                  <div class="col-12">
-                    <input type="tel" name="phone" class="form-control" placeholder="Phone Number" required>
-                  </div>
-                  <div class="col-12">
-                    <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-                  </div>
-                  <div class="col-12">
-                    <textarea name="message" class="form-control" rows="6"
-                      placeholder="Tell us about your project (location, service needed, damage, timeline)"></textarea>
-                  </div>
-                  <input type="hidden" name="_redirect" value="https://axislayer.ca/">
-                  <div class="col-12 text-center">
-                    <button type="submit" class="btn btn-primary w-100">
-                    Get My Free Quote
-                    </button>
+
+              <!-- Process steps -->
+              <div class="process-steps">
+                <h5>What Happens Next</h5>
+                <div class="process-step">
+                  <div class="step-num">1</div>
+                  <div class="step-text">
+                    <strong>You send us the details</strong>
+                    <span>Tell us the service you need, your location, and any photos or notes about the project.</span>
                   </div>
                 </div>
-              </form>
+                <div class="process-step">
+                  <div class="step-num">2</div>
+                  <div class="step-text">
+                    <strong>We review and follow up</strong>
+                    <span>We'll reach out within 24 hours — usually to ask a quick question or confirm a site visit.</span>
+                  </div>
+                </div>
+                <div class="process-step">
+                  <div class="step-num">3</div>
+                  <div class="step-text">
+                    <strong>You get a clear quote</strong>
+                    <span>Scope, price, and timeline — no vague estimates, no hidden add-ons.</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Trust badges -->
+              <div class="trust-badges">
+                <div class="trust-badge"><i class="bi bi-shield-fill-check"></i> Fully Licensed</div>
+                <div class="trust-badge"><i class="bi bi-shield-fill-check"></i> WCB Covered</div>
+                <div class="trust-badge"><i class="bi bi-shield-fill-check"></i> Liability Insured</div>
+                <div class="trust-badge"><i class="bi bi-chat-dots-fill"></i> Fast Response</div>
+              </div>
+
+              <!-- Direct contact -->
+              <div class="direct-contact">
+                <h6>Prefer to Reach Us Directly?</h6>
+                <a href="tel:+18257857675" class="contact-link-row">
+                  <i class="bi bi-telephone-fill"></i>
+                  <div><strong>Phone</strong>+1 825 785 7675</div>
+                </a>
+                <a href="mailto:info@axislayer.ca" class="contact-link-row">
+                  <i class="bi bi-envelope-fill"></i>
+                  <div><strong>Email</strong>info@axislayer.ca</div>
+                </a>
+                <div class="whatsapp-link-row">
+                  <a href="https://wa.me/18257857675?text=Hi%20AxisLayer%2C%20I%20need%20a%20quote%20for%20exterior%20work%20in%20Edmonton."
+                     class="btn-whatsapp" target="_blank">
+                    <i class="bi bi-whatsapp"></i> Message on WhatsApp
+                  </a>
+                </div>
+              </div>
+
             </div>
+
+            <!-- RIGHT: Form -->
+            <div class="col-lg-7" data-aos="fade-left">
+              <div class="quote-form-wrap">
+                <p class="form-heading">Request a Free Quote</p>
+                <p class="form-subhead">Mon–Fri, 8am–6pm · We typically reply within a few hours</p>
+
+                <form action="https://formspree.io/f/mvzdbqvo" method="POST">
+
+                  <!-- Service chips -->
+                  <div class="service-selector">
+                    <label>What do you need? <span style="font-weight:400;text-transform:none;letter-spacing:0;color:#aaa;">(select all that apply)</span></label>
+                    <div class="service-chips">
+                      <label class="service-chip" id="chip-stucco">
+                        <input type="checkbox" name="service[]" value="Stucco">
+                        🧱 Stucco
+                      </label>
+                      <label class="service-chip" id="chip-eifs">
+                        <input type="checkbox" name="service[]" value="EIFS">
+                        🏗️ EIFS
+                      </label>
+                      <label class="service-chip" id="chip-parging">
+                        <input type="checkbox" name="service[]" value="Parging">
+                        🪨 Parging
+                      </label>
+                      <label class="service-chip" id="chip-stone">
+                        <input type="checkbox" name="service[]" value="Culture Stone">
+                        🪵 Culture Stone
+                      </label>
+                      <label class="service-chip" id="chip-repair">
+                        <input type="checkbox" name="service[]" value="Repair">
+                        🔧 Repair / Patch
+                      </label>
+                      <label class="service-chip" id="chip-notsure">
+                        <input type="checkbox" name="service[]" value="Not sure">
+                        ❓ Not sure yet
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="row gy-3">
+                    <div class="col-sm-6">
+                      <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                    </div>
+                    <div class="col-sm-6">
+                      <input type="tel" name="phone" class="form-control" placeholder="Phone Number" required>
+                    </div>
+                    <div class="col-12">
+                      <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                    </div>
+                    <div class="col-12">
+                      <input type="text" name="location" class="form-control" placeholder="Project Location (e.g. Edmonton — Terwillegar)">
+                    </div>
+                    <div class="col-12">
+                      <textarea name="message" class="form-control"
+                        placeholder="Describe your project — size, condition, any damage, rough timeline. The more detail, the better we can quote you."></textarea>
+                    </div>
+                    <input type="hidden" name="_redirect" value="https://axislayer.ca/">
+                    <div class="col-12">
+                      <button type="submit" class="btn-submit-quote">Send My Quote Request →</button>
+                      <p class="form-reassurance">
+                        <i class="bi bi-lock-fill"></i>
+                        No spam, ever. Your info is only used to respond to your request.
+                      </p>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
+      <!-- End Contact Section -->
+
+      <!-- ======= Service Area Strip ======= -->
+      <div class="service-area-strip">
+        <div class="container">
+          <p><strong>Currently serving Edmonton and surrounding communities:</strong></p>
+          <div class="area-tags">
+            <div class="area-tag"><i class="bi bi-geo-alt-fill"></i> Edmonton</div>
+            <div class="area-tag"><i class="bi bi-geo-alt-fill"></i> Sherwood Park</div>
+            <div class="area-tag"><i class="bi bi-geo-alt-fill"></i> St. Albert</div>
+            <div class="area-tag"><i class="bi bi-geo-alt-fill"></i> Spruce Grove</div>
+            <div class="area-tag"><i class="bi bi-geo-alt-fill"></i> Leduc</div>
+            <div class="area-tag"><i class="bi bi-geo-alt-fill"></i> Fort Saskatchewan</div>
+          </div>
+        </div>
+      </div>
+      <!-- End Service Area Strip -->
+
     </main>
+    <!-- End #main -->
+
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
       <div class="footer-content">
         <div class="container">
           <div class="row">
-            <!-- BUSINESS INFO -->
             <div class="col-lg-4 col-md-6">
               <div class="footer-info">
                 <h3>AxisLayer Exteriors</h3>
@@ -265,13 +611,10 @@
                   <strong>Email:</strong> info@axislayer.ca<br>
                 </p>
                 <div class="mt-3">
-                  <a href="https://wa.me/18257857675" class="btn btn-success">
-                  Message Us on WhatsApp
-                  </a>
+                  <a href="https://wa.me/18257857675" class="btn btn-success">Message Us on WhatsApp</a>
                 </div>
               </div>
             </div>
-            <!-- SERVICES -->
             <div class="col-lg-3 col-md-6 footer-links">
               <h4>Services</h4>
               <ul>
@@ -281,35 +624,29 @@
                 <li><a href="/services/parging-edmonton/">Foundation Parging</a></li>
               </ul>
             </div>
-            <!-- COMPANY -->
             <div class="col-lg-2 col-md-6 footer-links">
               <h4>Company</h4>
               <ul>
                 <li><a href="/">Home</a></li>
+                <li><a href="/about/">About</a></li>
                 <li><a href="/contact/">Contact</a></li>
               </ul>
             </div>
-            <!-- SERVICE AREA -->
             <div class="col-lg-3 col-md-6 footer-links">
               <h4>Service Area</h4>
-              <p>
-                Serving Edmonton and surrounding areas including Sherwood Park,
-                St. Albert, and nearby communities.
-              </p>
+              <p>Serving Edmonton, Sherwood Park, St. Albert, Spruce Grove, Leduc, and surrounding communities.</p>
             </div>
           </div>
         </div>
       </div>
-      <!-- LEGAL -->
       <div class="footer-legal text-center">
         <div class="container">
-          <div class="copyright">
-            &copy; 2026 <strong>AxisLayer Exteriors</strong>. All Rights Reserved
-          </div>
+          <div class="copyright">&copy; 2026 <strong>AxisLayer Exteriors</strong>. All Rights Reserved</div>
         </div>
       </div>
     </footer>
     <!-- End Footer -->
+
     <a href="#" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Scroll to top"><i class="bi bi-arrow-up-short"></i></a>
     <div id="preloader"></div>
     <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
@@ -320,12 +657,20 @@
     <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js" defer></script>
     <script src="/assets/vendor/php-email-form/validate.js" defer></script>
     <script src="/assets/js/main.js" defer></script>
+
+    <script>
+      // Service chip toggle
+      document.querySelectorAll('.service-chip').forEach(function(chip) {
+        chip.addEventListener('click', function() {
+          this.classList.toggle('selected');
+        });
+      });
+    </script>
+
     <!-- Floating WhatsApp Button -->
     <a href="https://wa.me/18257857675?text=Hi%20AxisLayer%2C%20I%20need%20a%20quote%20for%20exterior%20work%20in%20Edmonton."
-      class="whatsapp-float"
-      target="_blank"
-      aria-label="Chat on WhatsApp">
-    <i class="bi bi-whatsapp"></i>
+      class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+      <i class="bi bi-whatsapp"></i>
     </a>
   </body>
 </html>
